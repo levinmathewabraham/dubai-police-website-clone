@@ -1,182 +1,47 @@
-body {
-    font-family: "F29LT Bukra Regular";
-    font-weight: 900;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.container-fluid {
-    padding-left: 32px;
-    padding-right: 32px;
-    margin-bottom: 20px;
+#header-section {
+    font-size: 18px;
 }
 
-.nav-link {
-    color: white;
+.navbar {
+    background-color: #9AC8CD;
 }
 
-.nav-icons {
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(69deg) brightness(105%) contrast(102%);
+.profile {
+    background-color: #E1F7F5;
 }
 
-.footer-left-icons {
-    filter: invert(34%) sepia(13%) saturate(4341%) hue-rotate(122deg) brightness(99%) contrast(93%);
+.education {
+    background-color: #E1F7F5;
 }
 
-.footer-mid-icons {
-    filter: invert(34%) sepia(13%) saturate(4341%) hue-rotate(122deg) brightness(99%) contrast(93%);
+.experience {
+    background-color: #E1F7F5;
 }
 
-.footer-right-icons {
-    filter: invert(32%) sepia(5%) saturate(107%) hue-rotate(71deg) brightness(96%) contrast(85%);
+.hobby {
+    background-color: #E1F7F5;
 }
 
-.logo-head {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-    padding-bottom: 20px;
+.contact {
+    background-color: #E1F7F5;
 }
 
-.logo-gov {
-    width: 160px;
+#footer-section {
+    background-color: #9AC8CD;
 }
 
-.logo-dp {
-    width: 130px;
+.course {
+    font-size: 25px;
+    font-weight: bold;
 }
 
-.hamburger {
-    filter: invert(99%) sepia(2%) saturate(305%) hue-rotate(333deg) brightness(120%) contrast(100%);
-}
-
-.home {
-    filter: invert(99%) sepia(2%) saturate(305%) hue-rotate(333deg) brightness(120%) contrast(100%);
-}
-
-.menu-buttons {
-    border: 0;
-    border-radius: 50px;
-    background-color: black;
-}
-
-.main-menu {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    justify-content: space-between;
-    font-size: 12px;
-}
-
-.main-content {
-    position: absolute;
-    z-index: 0;
-    top: 0;
-    display: flex;
-}
-
-.carousel {
-    width: 100%;
-}
-
-.carousel-controls {
-    position: absolute;
-    z-index: 1;
-}
-
-.carousel-inner {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-}
-
-.carousel-item {
-    display: none;
-    width: 100%;
-    height: 100%;
-}
-
-.carousel-item.active {
-    display: block;
-}
-
-.search-bar {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    padding-top: 110px;
-}
-
-.search-bar-input {
-    width: 550px;
-    height: 60px;
-}
-
-.container {
-    position: relative;
-    z-index: 1;
-    margin-top: 60px;
-}
-
-.service-text {
-    font-weight: 900;
-}
-
-.service-cards {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    justify-content: space-around;
-    gap: 10px;
-    margin-top: 70px;
-    margin-bottom: -45px;
-}
-
-.card {
-    width: 210px;
-    height: 25.6vh;
-    border-radius: 15px;
-}
-
-.card-body {
-    text-align: center;
-    padding-top: 20px;
-}
-
-.card-title {
-    padding-top: 10px;
-    font-weight: 900;
-    font-size: 14px;
-}
-
-.service-links {
-    text-decoration: none;
-    color: black;
-}
-
-.footer-section {
-    position: relative;
-    z-index: 1;
-    background-color: white;
-    flex-grow: 1;
-}
-
-.comp-icon {
-    width: 25px;
-}
-
-.footer-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer-text {
-    color: #097E5C;
+.exp-head {
+    font-size: 25px;
+    font-weight: bold;
 }

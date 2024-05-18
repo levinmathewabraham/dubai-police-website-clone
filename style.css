@@ -6,36 +6,11 @@ body {
     flex-direction: column;
 }
 
-.nav-icons {
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(69deg) brightness(105%) contrast(102%);
-}
-
-.footer-left-icons {
-    filter: invert(34%) sepia(13%) saturate(4341%) hue-rotate(122deg) brightness(99%) contrast(93%);
-}
-
-.footer-mid-icons {
-    filter: invert(34%) sepia(13%) saturate(4341%) hue-rotate(122deg) brightness(99%) contrast(93%);
-}
-
-.footer-right-icons {
-    filter: invert(32%) sepia(5%) saturate(107%) hue-rotate(71deg) brightness(96%) contrast(85%);
-}
-
 .logo-div {
     padding-left: 32px;
     padding-right: 32px;
     margin-bottom: 20px;
 }
-
-.nav-link {
-    color: white;
-}
-
-.menu {
-    color: black;
-}
-
 
 .logo-head {
     position: relative;
@@ -55,46 +30,6 @@ body {
     width: 130px;
 }
 
-.hamburger {
-    filter: invert(99%) sepia(2%) saturate(305%) hue-rotate(333deg) brightness(120%) contrast(100%);
-}
-
-.home {
-    filter: invert(99%) sepia(2%) saturate(305%) hue-rotate(333deg) brightness(120%) contrast(100%);
-}
-
-.menu-buttons {
-    border: 0;
-    border-radius: 50px;
-    background-color: rgba(128,128,128, .4);
-}
-
-.menu-dropdown {
-    display: flex;
-}
-
-.right-menu-btns {
-    display: flex;
-    gap: 15px;
-}
-
-.menu-search-icon {
-    border: 0;
-    border-radius: 50px;
-    background-color: rgba(128,128,128, .4);
-}
-
-.menu-search {
-    width: 250px;
-    margin-right: 20px;
-}
-
-.menu-search-bar {
-    border: 0;
-    border-radius: 50px;
-    background-color: rgba(128,128,128, .4);
-}
-
 .main-menu {
     position: relative;
     z-index: 1;
@@ -103,20 +38,59 @@ body {
     font-size: 12px;
 }
 
+.nav-link {
+    color: white;
+}
+
+.menu {
+    color: black;
+}
+
+.home {
+    filter: invert(99%) sepia(2%) saturate(305%) hue-rotate(333deg) brightness(120%) contrast(100%);
+}
+
+.menu-dropdown {
+    display: flex;
+}
+
+.menu-search {
+    width: 250px;
+    margin-right: 20px;
+}
+
+.menu-search-icon {
+    border: 0;
+    border-radius: 50px;
+    background-color: rgba(128,128,128, .4);
+}
+
+.menu-search-bar {
+    border: 0;
+    border-radius: 50px;
+    background-color: rgba(128,128,128, .4);
+}
+
+.right-menu-btns {
+    display: flex;
+    gap: 15px;
+}
+
+.menu-buttons {
+    border: 0;
+    border-radius: 50px;
+    background-color: rgba(128,128,128, .4);
+}
+
+.nav-icons {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(69deg) brightness(105%) contrast(102%);
+}
+
 .main-content {
     position: absolute;
     z-index: 0;
     top: 0;
     display: flex;
-}
-
-.carousel {
-    width: 100%;
-}
-
-.carousel-controls {
-    position: absolute;
-    margin-top: 80px;
 }
 
 .carousel-inner {
@@ -131,10 +105,6 @@ body {
     height: 100%;
 }
 
-.carousel-item.active {
-    display: block;
-}
-
 .search-bar {
     position: relative;
     display: flex;
@@ -146,6 +116,11 @@ body {
 .content-search {
     width: 660px;
     height: 60px;
+}
+
+.carousel-controls {
+    position: absolute;
+    margin-top: 80px;
 }
 
 .container {
@@ -175,6 +150,11 @@ body {
     border-radius: 15px;
 }
 
+.service-links {
+    text-decoration: none;
+    color: black;
+}
+
 .card-body {
     text-align: center;
     padding-top: 25px;
@@ -186,21 +166,12 @@ body {
     font-size: 14px;
 }
 
-.service-links {
-    text-decoration: none;
-    color: black;
-}
-
 .footer-section {
     position: relative;
     z-index: 1;
     background-color: white;
     flex-grow: 1;
     box-shadow: gray 5px 5px 5px 5px;
-}
-
-.comp-icon {
-    width: 25px;
 }
 
 .footer-menu {
@@ -214,8 +185,22 @@ body {
     font-size: 13px;
 }
 
+.footer-left-icons {
+    filter: invert(34%) sepia(13%) saturate(4341%) hue-rotate(122deg) brightness(99%) contrast(93%);
+}
+
+.footer-complaint-icon {
+    width: 25px;
+}
+
+.footer-mid-icons {
+    filter: invert(34%) sepia(13%) saturate(4341%) hue-rotate(122deg) brightness(99%) contrast(93%);
+}
 
 .footer-right {
     display: flex;
     justify-content: end;
+}
+.footer-right-icons {
+    filter: invert(32%) sepia(5%) saturate(107%) hue-rotate(71deg) brightness(96%) contrast(85%);
 }

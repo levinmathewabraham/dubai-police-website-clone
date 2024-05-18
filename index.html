@@ -12,7 +12,7 @@
 <body>
     <!-- Header section. -->
     <header>
-        <div class="container-fluid">
+        <div class="container-fluid logo-div">
             <!-- Contains logo icons -->
             <div class="logo-head">
                 <div class="logo-gov">
@@ -26,39 +26,141 @@
             <div class="main-menu">
                 <!-- Left section of the navigation bar -->
                 <div class="left-menu-items">
-                    <nav class="navbar navbar-expand-lg">
-                          <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav nav-underline">
-                                <li class="nav-item">
-                                    <a class="hamburger nav-link" aria-current="page" href="#"><img src="./svg/list.svg" alt=""></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="home nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">About Us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Open Data</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Application Status</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Help & Supports</a>
-                                </li>
-                            </ul>
-                          </div>
-                      </nav>
+                    <nav class="navbar">
+                        <div class="container-fluid menu-div px-0">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-start" tabindex="1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                        <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#"><h6>MAIN MENU</h6></a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                        <a class="menu nav-link" href="#">Home</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                        <a class="menu nav-link" href="#">About Us</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                        <a class="menu nav-link" href="#">Services</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                        <a class="menu nav-link" href="#">Open Data</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                        <a class="menu nav-link" href="#">Application Status</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                        <a class="menu nav-link" href="#">Help & Supports</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                        <a class="menu nav-link" href="#">Intitiative</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                        <a class="menu nav-link" href="#">Careers</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                        <a class="menu nav-link" href="#">Media</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                        <a class="menu nav-link" href="#">901</a>
+                                        </li>
+                                        <li class="nav-item">
+                                        <a class="menu nav-link active" aria-current="page" href="#"><h6>OTHER LINKS</h6></a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                        <a class="menu nav-link" href="#">FAQS</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                        <a class="menu nav-link" href="#">Miscellaneous Links</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                        <a class="menu nav-link" href="#">Privacy Policy</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                        <a class="menu nav-link" href="#">Terms & Conditions</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                        <a class="menu nav-link" href="#">Customer Service Agreement</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                        <a class="menu nav-link" href="#">Sitemap</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                        <a class="menu nav-link" href="#">Information</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                        <a class="menu nav-link" href="#">Friendly Websites</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                        <a class="menu nav-link" href="#">Police Eye</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                        <a class="menu nav-link" href="#">Lost And Found</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                        <a class="menu nav-link" href="#">eCrime</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <nav class="navbar navbar-expand-lg">
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav nav-underline">
+                                        <li class="nav-item">
+                                            <a class="home nav-link active" aria-current="page" href="#">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">About Us</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" aria-expanded="false">Open Data</a>
+                                            <ul class="dropdown-menu">
+                                                <div class="container-fluid menu-dropdown">
+                                                    <div>
+                                                        <li><a class="dropdown-item" href="#">Dubai Pulse</a></li>
+                                                        <li><a class="dropdown-item" href="#">Training Plan 2023</a></li>
+                                                        <li><a class="dropdown-item" href="#">Emergency Call Statistics</a></li>
+                                                        <li><a class="dropdown-item" href="#">Street Speed Limits</a></li>
+                                                    </div>
+                                                    <div>
+                                                        <li><a class="dropdown-item" href="#">Traffic Accident Statistics</a></li>
+                                                        <li><a class="dropdown-item" href="#">Laws and Legislation</a></li>
+                                                        <li><a class="dropdown-item" href="#">Major Crime Statistics</a></li>
+                                                    </div>
+                                                    <div>
+                                                        <li><a class="dropdown-item" href="#">Best Practices in Sustainable Development</a></li>
+                                                        <li><a class="dropdown-item" href="#">View the Black Points of Traffic Violations</a></li>
+                                                        <li><a class="dropdown-item" href="#">Survey Statistics</a></li>
+                                                    </div>
+                                                </div>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Application Status</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Help & Supports</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </nav>
                 </div>
                 <!-- Right section of the navigation bar -->
                 <div class="right-menu-items">
                     <nav class="navbar navbar-expand-lg">
                         <form class="d-flex" role="search">
                             <div class="menu-search input-group">
-                                <span class="input-group-text" id="basic-addon1"><img src="./svg/search.svg" alt="search-icon"></span>
+                                <span class="menu-search-icon input-group-text" id="basic-addon1"><img src="./svg/search.svg" alt="search-icon"></span>
                                 <input class="menu-search-bar form-control me-2" type="search" placeholder="Search..." aria-label="Search">
-                                <button class="search-btn btn btn-outline-success" type="submit">Search</button>
                             </div>
                         </form>
                         <ul class="right-menu-btns navbar-nav">
@@ -115,7 +217,6 @@
                 <span class="input-group-text" id="basic-addon1"><img src="./svg/search.svg" alt="search-icon"></span>
                 <input class="form-control me-2" type="search" placeholder="Search for the service" aria-label="Search">
             </div>
-            <button class="search-btn btn btn-outline-success" type="submit">Search</button>
         </form>
             
         <!-- Carousel indicator controls just below the search bar as in the original website -->

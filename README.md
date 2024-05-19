@@ -1,5 +1,5 @@
-# dpWebClone
+# DP WebClone
 
-This project is a clone of the Dubai Police website homepage (https://www.dubaipolice.gov.ae/wps/portal/home) built using HTML and CSS. It aims to replicate the design and partial functionality of the original website as a learning exercise in front-end web development.
+DP WebClone (Dubai Police Website Clone) project is a clone of the Dubai Police website (https://www.dubaipolice.gov.ae/wps/portal/home) built using HTML5 and CSS3 (Bootstrap). It aims to replicate the design and partial functionality of the original website for front-end development.
 <br><br>
-Note: The website is not completely responsive. It is still a work-in-progress.
+Note: The website is still a work-in-progress.

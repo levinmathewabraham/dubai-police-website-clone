@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DP WebClone - About Us</title>
+    <link rel="icon" href="./images/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://db.onlinewebfonts.com/c/739571e5b3270dd49b19f413b1ef148e?family=F29LT+Bukra+Regular" rel="stylesheet">
+    <link href="./about-us.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header section starts -->
+    <header>
+        <div class="logo-div container-fluid">
+            <!-- Contains logo icons -->
+            <div class="logo-head">
+                <div class="logo-gov">
+                    <img src="./svg/government-of-dubai-red.svg" alt="dubai-govt-logo">
+                </div>
+                <div class="logo-dp">
+                    <img src="./svg/dubai-police-org.svg" alt="dubai-police-logo">
+                </div>
+            </div>
+            <!-- Main menu bar starts -->
+            <div class="main-menu">
+                <!-- Left section of the main menu bar starts -->
+                <div class="left-menu-items">
+                    <nav class="navbar">
+                        <div class="container-fluid px-0">
+                            <!-- Sidebar menu toggler -->
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-start" tabindex="1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-header">
+                                    <!-- Sidebar menu close button -->
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <!-- Sidebar menu contents start -->
+                                <div class="offcanvas-body">
+                                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                        <li class="nav-item">
+                                            <h6>MAIN MENU</h6>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="./home.html">Home</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="./about-us.html">About Us</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="#">Services</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="#">Open Data</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="#">Application Status</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="./help-and-support.html">Help & Supports</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="#">Intitiative</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="#">Careers</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="#">Media</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="#">901</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <h6>OTHER LINKS</h6>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="#">FAQS</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="#">Miscellaneous Links</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="#">Privacy Policy</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="#">Terms & Conditions</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="#">Customer Service Agreement</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="#">Sitemap</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="#">Information</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="#">Friendly Websites</a>
+                                        </li>
+                                        <br><br>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="#">Police Eye</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="#">Lost And Found</a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="#">eCrime</a>
+                                        </li>
+                                        <br><br>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="#"><img src="./images/Hamdan-Bin-Mohammed-Programme.png" alt="hamdan-pgm"></a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="#"><img src="./images/Best-M-Government-Service-Award.png" alt="best-govt-award"></a>
+                                        </li>
+                                        <li class="nav-item border-bottom">
+                                            <a class="menu nav-link" href="#"><img src="./svg/globe.svg" alt="internet-icon"> 17,346,409 <br> Number of visitors</a>
+                                        </li>
+                                        <br>
+                                        <li class="nav-item downloads">
+                                            <div class="appstore">
+                                                <a class="menu nav-link" href="#"><img src="./svg/app-store.svg" alt="app-store"></a>
+                                            </div>
+                                            <div class="appstore">
+                                                <a class="menu nav-link" href="#"><img src="./svg/google-play.svg" alt="google-play"></a>
+                                            </div>
+                                            <div class="appstore">
+                                                <a class="menu nav-link" href="#"><img src="./svg/app-gallery.svg" alt="app-gallery"></a>
+                                            </div>
+                                        </li>
+                                        <br>
+                                        <li class="nav-item">
+                                            Copyright © 2021-2023 Dubai Police, all rights reserved.
+                                            This site is monitored and maintained by Dubai Police.
+                                            The site is best viewed using IE11 and above, Mozilla Firefox, Safari and Chrome. Last modified Date: 19-05-2024
+                                        </li>
+                                        <br><br><br><br><br><br>
+                                    </ul>
+                                </div>
+                                <!-- Sidebar menu contents end -->
+                            </div>
+                            <!-- Left main menu bar starts -->
+                            <nav class="navbar navbar-expand-lg">
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <!-- Contents of left main menu bar starts -->
+                                    <ul class="navbar-nav nav-underline">
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="./home.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="./about-us.html">About Us</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" aria-expanded="false">Open Data</a>
+                                            <ul class="dropdown-menu">
+                                                <!-- Open Data dropdown contents start -->
+                                                <div class="container-fluid menu-dropdown">
+                                                    <div>
+                                                        <li><a class="dropdown-item" href="#">Dubai Pulse</a></li>
+                                                        <li><a class="dropdown-item" href="#">Training Plan 2023</a></li>
+                                                        <li><a class="dropdown-item" href="#">Emergency Call Statistics</a></li>
+                                                        <li><a class="dropdown-item" href="#">Street Speed Limits</a></li>
+                                                    </div>
+                                                    <div>
+                                                        <li><a class="dropdown-item" href="#">Traffic Accident Statistics</a></li>
+                                                        <li><a class="dropdown-item" href="#">Laws and Legislation</a></li>
+                                                        <li><a class="dropdown-item" href="#">Major Crime Statistics</a></li>
+                                                    </div>
+                                                    <div>
+                                                        <li><a class="dropdown-item" href="#">Best Practices in Sustainable Development</a></li>
+                                                        <li><a class="dropdown-item" href="#">View the Black Points of Traffic Violations</a></li>
+                                                        <li><a class="dropdown-item" href="#">Survey Statistics</a></li>
+                                                    </div>
+                                                </div>
+                                                <!-- Open Data dropdown contents end -->
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Application Status</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./help-and-support.html">Help & Supports</a>
+                                        </li>
+                                    </ul>
+                                    <!-- Contents of left main menu bar ends -->
+                                </div>
+                            </nav>
+                            <!-- Left main menu bar ends -->
+                        </div>
+                    </nav>
+                </div>
+                <!-- Left section of main menu bar ends -->
+                
+                <!-- Right section of the main menu bar starts-->
+                <div class="right-menu-items">
+                    <nav class="navbar navbar-expand-lg">
+                        <!-- Search bar in main menu bar starts -->
+                        <form class="d-flex" role="search">
+                            <div class="menu-search input-group">
+                                <span class="menu-search-icon input-group-text" id="basic-addon1"><img src="./svg/search.svg" alt="search-icon"></span>
+                                <input class="menu-search-bar form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                            </div>
+                        </form>
+                        <!-- Search bar in main menu bar ends -->
+
+                        <!-- Right main menu bar starts -->
+                        <ul class="right-menu-btns navbar-nav">
+                            <li class="nav-item">
+                                <button class="menu-buttons">
+                                    <a class="nav-link" href="#"><img class="nav-icons" src="./svg/person-wheelchair.svg" alt="person-wheelchair"></a>
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="menu-buttons">
+                                    <a class="nav-link" href="#">العربية</a>
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="menu-buttons">
+                                    <a class="nav-link" href="#"><img class="nav-icons" src="./svg/person-circle.svg" alt="person-circle">Login</a>
+                                </button>
+                            </li>
+                        </ul>
+                        <!-- Right main menu bar ends -->
+                    </nav>
+                </div>
+                <!-- Right section of main menu bar ends -->
+            </div>
+            <!-- Main menu bar ends -->
+        </div>
+    </header>
+    <!-- Header section ends -->
+
+    <ul class="about-navbar nav">
+        <li class="nav-item">
+            <a href="./home.html">Home</a>
+        </li>
+        <li>&nbsp; > &nbsp;</li>
+        <li class="nav-item">About Us</li>
+    </ul>
+    <h1 class="about-head">About Us</h1>
+    <div class="container">
+        <div class="row flex-lg-row align-items-center m-0">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="images/overview.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="about-details col-lg-6">
+                <p class="about-text-head">About</p>
+                <div class="container">
+                    <h1 class="about-subhead display-5 fw-bold text-body-emphasis lh-1 mb-3">Overview</h1>
+                    <p class="about-text lead">Dubai Police Force was established on June 01, 1956, and 
+                        was based in "Naif Fort," as its Headquarters, until the year 1973 
+                        when it was moved to the current location. "Naif Fort" was transformed, 
+                        later, into one of Dubai Police Stations.
+                    </p>
+                    <button type="button" class="about-more-btn btn btn-outline-success btn-lg px-4 me-md-2">Read more</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row flex-lg-row-reverse align-items-center m-0">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img src="images/our-strategy.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="about-details col-lg-6">
+                <p class="about-text-head">About</p>
+                <div class="container">
+                    <h1 class="about-subhead display-5 fw-bold text-body-emphasis lh-1 mb-3">Our Strategy</h1>
+                    <p class="about-text lead">The graces and blessings of God are countless; we may name 
+                        a number of these blessing under one title that is SECURITY. We, as human 
+                        beings think that each job we perform may bring back a certain type of 
+                        security, such as, personal, emotional, social…
+                    </p>
+                    <button type="button" class="about-more-btn btn btn-outline-success btn-lg px-4 me-md-2">Read more</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row flex-lg-row align-items-center m-0">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img src="images/deputy-chief-of-police-gen-security.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="about-details col-lg-6">
+                <p class="about-text-head">About</p>
+                <div class="container">
+                    <h1 class="about-subhead display-5 fw-bold text-body-emphasis lh-1 mb-3">Deputy Chief of Police and General Security in Dubai</h1>
+                    <p class="about-text lead">Not by aspirations but by dedication, Dubai Police HQ has won the Gold Category Award. Quality can 
+                        only be achieved from the top and no one can apply Total Quality unless the higher management is sponsoring this 
+                        aspect. Quality from the higher management can only be initiated from a conviction of its importance. We should 
+                        create knowledge, create culture out of this knowledge, and create practice out of this culture.
+                        <br>
+                        dhahikhalfan.ae
+                        <br><br>
+                        <span class="deputy-title">- Deputy Chief of Police and General Security in Dubai</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row flex-lg-row-reverse align-items-center m-0">
+            <div class="col-10 col-sm-8 col-lg-6">
+            <img src="images/organizational-structure.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="about-details col-lg-6">
+                <p class="about-text-head">About</p>
+                <div class="container">
+                    <h1 class="about-subhead display-5 fw-bold text-body-emphasis lh-1 mb-3">Organizational Structure</h1>
+                    <p class="about-text lead">
+                    </p>
+                    <button type="button" class="about-more-btn btn btn-outline-success btn-lg px-4 me-md-2">Read more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- Footer section starts -->
+    <footer class="footer-section">
+        <div class="footer-menu">
+            <!-- Footer contents on the left -->
+            <div class="footer-left col-4">
+                <ul class="nav">
+                    <li class="nav-item"><a href="#" class="footer-text menu nav-link px-2"><img class="footer-left-icons" src="./svg/emoji-smile.svg" alt=""></a></li>
+                    <li class="nav-item"><a href="#" class="footer-text menu nav-link px-2"><img class="footer-complaint-icon" src="./images/download.png" alt=""></a></li>
+                    <li class="nav-item"><a href="#" class="footer-text menu nav-link px-2"><img class="footer-left-icons" src="./svg/grid.svg" alt=""> Services</a></li>
+                </ul>
+            </div>
+            <!-- Footer contents in the middle -->
+            <div class="footer-mid col-4">
+                <ul class="nav">
+                    <li class="nav-item"><a href="#" class="footer-text menu nav-link px-2"><img class="footer-mid-icons" src="./svg/eye.svg" alt=""> Police Eye</a></li>
+                    <li class="nav-item"><a href="#" class="footer-text menu nav-link px-2"><img src="./svg/ecrime.svg" style="width: 60px;" alt=""></a></li>
+                    <li class="nav-item"><a href="#" class="footer-text menu nav-link px-2"><img src="./svg/lost-found.svg" alt=""></a></li>
+                </ul>
+            </div>
+            <!-- Footer contents on the right -->
+            <div class="footer-right col-4">
+                <ul class="nav">
+                    <li class="nav-item"><a href="#" class="menu nav-link px-2 text-body-secondary"><img class="footer-right-icons" src="./svg/info-circle-fill.svg" alt=""> Information</a></li>
+                    <li class="nav-item"><a href="#" class="menu nav-link px-2 text-body-secondary"><img class="footer-right-icons" src="./svg/briefcase-fill.svg" alt=""> Careers</a></li>
+                    <li class="nav-item"><a href="#" class="menu nav-link px-2 text-body-secondary"><img class="footer-right-icons" src="./svg/file-earmark-text-fill.svg" alt=""> Media</a></li>
+                    <li class="nav-item"><a href="#" class="menu nav-link px-2 text-body-secondary"><img class="footer-right-icons" src="./svg/headset.svg" alt=""> 901</a></li>
+                    <li class="nav-item"><a href="#" class="menu nav-link px-2 text-body-secondary"><img class="footer-right-icons" src="./svg/chat-left.svg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+body {
+    font-family: "F29LT Bukra Regular";
+    font-weight: 900;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    box-shadow: gray 0px 0px 4px 1px;
+}
+
+.logo-div {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.logo-head {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo-gov {
+    width: 160px;
+}
+
+.logo-dp {
+    width: 130px;
+}
+
+.main-menu {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.menu {
+    color: black;
+}
+
+.downloads {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-dropdown {
+    display: flex;
+}
+
+.menu-search {
+    width: 250px;
+    margin-right: 20px;
+}
+
+.menu-search-icon {
+    border: 0;
+    border-radius: 50px;
+    background-color: rgba(128,128,128, .4);
+}
+
+.menu-search-bar {
+    border: 0;
+    border-radius: 50px;
+    background-color: rgba(128,128,128, .4);
+}
+
+.right-menu-btns {
+    display: flex;
+    gap: 15px;
+}
+
+.menu-buttons {
+    border: 0;
+    border-radius: 50px;
+    background-color: rgba(128,128,128, .4);
+}
+
+.nav-icons {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(69deg) brightness(105%) contrast(102%);
+}
+
+.hs-navbar {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.hs-subhead {
+    font-size: 30px;
+    max-width: 420px;
+}
+
+.hs-head {
+    text-align: center;
+    font-weight: 900;
+}
+
+.hs-details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hs-details > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.hs-text-head {
+    font-size: 12px;
+}
+
+.hs-text {
+    font-size: 12px;
+    max-width: 400px;
+    margin-top: 40px;
+}
+
+.container > button {
+    margin-top: 30px;
+}
+
+.hs-open-btn {
+    border-radius: 30px;
+    width: 200px;
+}
+
+.container {
+    position: relative;
+    z-index: 0;
+    margin-top: 60px;
+}
+
+.footer-section {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    flex-grow: 1;
+    box-shadow: gray 5px 5px 5px 5px;
+    padding-bottom: 20px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text {
+    color: #097E5C;
+    font-size: 13px;
+}
+
+.footer-left-icons {
+    filter: invert(34%) sepia(13%) saturate(4341%) hue-rotate(122deg) brightness(99%) contrast(93%);
+}
+
+.footer-complaint-icon {
+    width: 25px;
+}
+
+.footer-mid-icons {
+    filter: invert(34%) sepia(13%) saturate(4341%) hue-rotate(122deg) brightness(99%) contrast(93%);
+}
+
+.footer-right {
+    display: flex;
+    justify-content: end;
+}
+.footer-right-icons {
+    filter: invert(32%) sepia(5%) saturate(107%) hue-rotate(71deg) brightness(96%) contrast(85%);
+}

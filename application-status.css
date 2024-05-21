@@ -86,7 +86,7 @@ header {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(69deg) brightness(105%) contrast(102%);
 }
 
-.hs-navbar {
+.as-navbar {
     display: flex;
     justify-content: center;
     font-size: 10px;
@@ -94,56 +94,34 @@ header {
     margin-bottom: 10px;
 }
 
-.hs-subhead {
-    font-size: 30px;
-    max-width: 420px;
-}
-
-.hs-head {
+.as-head {
     text-align: center;
     font-weight: 900;
 }
 
-.hs-details {
+.form-card {
+    position: relative;
+    z-index: 1;
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 45px;
+    margin-bottom: -20px;
 }
 
-.hs-details > .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0;
-}
-
-.hs-text-head {
-    font-size: 12px;
-}
-
-.hs-text {
-    font-size: 12px;
-    max-width: 400px;
-    margin-top: 40px;
-}
-
-.container > button {
-    margin-top: 30px;
-}
-
-.hs-open-btn {
-    border-radius: 30px;
-    width: 100px;
-    height: 50px;
-    font-size: 14px;
-    font-weight: 900;
+.card {
+    width: 900px;
+    height: 79vh;
+    border-radius: 15px;
 }
 
 .container {
-    position: relative;
-    z-index: 0;
-    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.app-form {
+    margin-top: 100px;
 }
 
 .footer-section {

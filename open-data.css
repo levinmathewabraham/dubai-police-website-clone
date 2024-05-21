@@ -86,7 +86,7 @@ header {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(69deg) brightness(105%) contrast(102%);
 }
 
-.hs-navbar {
+.od-navbar {
     display: flex;
     justify-content: center;
     font-size: 10px;
@@ -94,23 +94,21 @@ header {
     margin-bottom: 10px;
 }
 
-.hs-subhead {
-    font-size: 30px;
-    max-width: 420px;
-}
-
-.hs-head {
+.od-head {
     text-align: center;
     font-weight: 900;
 }
 
-.hs-details {
-    display: flex;
-    flex-direction: column;
+.od-details {
     text-align: center;
 }
 
-.hs-details > .container {
+.od-links {
+    text-decoration: none;
+    color: black;
+}
+
+.od-details > .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,12 +130,8 @@ header {
     margin-top: 30px;
 }
 
-.hs-open-btn {
-    border-radius: 30px;
-    width: 100px;
-    height: 50px;
-    font-size: 14px;
-    font-weight: 900;
+.open-data-imgs {
+    width: 200px;
 }
 
 .container {
